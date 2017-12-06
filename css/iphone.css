@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 810px){
+	#head_box .top_line .search_input{display:none;}
+	#head_box .top_line i.logo{margin-top:44px;}
+	.global_width{ padding:0 2%;}
+	#head_box .top_line .ip_search{ display:block;}
+	#head_box .top_line .search_input{ display:none;}
+	#section_box .Popular_Coupon_Codes_main h2{ font-size:1.4em;}
+	#section_box .Popular_Coupon_Codes .shop_todays h2{ font-size:1.4em;}
+	#section_box .Popular_Coupon_Codes .shop_todays .st_main{ padding:20px 6% 0;}
+	#section_box .Popular_Coupon_Codes_main ul{ padding-top:12px;}
+	#section_box .box_sc .Featured_Coupons .Featured_Coupons_main{ padding:30px 0 10px;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main{ width:76%;}
+	#head_box .empty_search .ip_search_form .ipsf input{ font-size:0.9em;}
+}
+@media screen and (max-width: 700px){
+	#section_box .Popular_Coupon_Codes_main ul li .pcc_main .pcc_cy .pcc_cy_img img{ max-height:30px; max-width:30px;}
+	#section_box .Popular_Coupon_Codes_main ul li .pcc_main .pcc_cy .pcc_cy_img{ width:30px; height:30px; line-height:30px;}
+	#section_box .Popular_Coupon_Codes_main ul li .pcc_main .pcc_cy .bg_write h3{ font-size:0.9em;}
+	#section_box .Popular_Coupon_Codes_main ul li .pcc_main .pcc_cy .bg_write p{ font-size:0.8em;}
+	#section_box .box_sc ul.main_code li .icons_list span{ width:70px;}
+	#section_box .box_sc .Coupons_for .Coupons_for_main ul li{ width:21%;}
+	#section_box .Expired_Michaels_Coupons .Expired_Michaels_Coupons_main h2,#section_box .box_sc .Coupons_for .Coupons_for_main h2,#section_box .box_sc .details_title .details_title_main h2{ font-size:1.5em;}
+	.code_couple span.number_FREE{ font-size:1.8em;}
+	.code_couple span.num_FREE{ padding-top:7%; font-size:1.8em;}
+	.code_couple span.dingoff_la{ font-size:1em;}
+	.code_couple span.num_gift{ font-size:2.1em;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main{ width:70%;}
+}
+@media screen and (max-width: 620px){
+	#section_box .Popular_Coupon_Codes .shop_todays .st_main .sml_sc{display:none;}
+	#section_box .Popular_Coupon_Codes_main ul li.first{ margin-left:1.5%;}
+	#section_box .Popular_Coupon_Codes_main ul li{ width:46%;}
+	#section_box .Popular_Coupon_Codes_main ul li .pcc_main .pcc_cy .bg_write{ display:none;}
+	#footer .run_arrow{ width:40px;height:40px;}
+	.run_arrow::after{ margin-top:3px;}
+	.run_arrow::before, .run_arrow::after{ height:3px;left:11px;width:18px; top:53%;}
+	#section_box .box_sc .Top_Offers .Top_Offers_main h2{ font-size:1.6em;}
+	#section_box .box_sc .Featured_Coupons .Featured_Coupons_main h2{ font-size:1.6em;}
+	#section_box .box_sc ul.main_code li .coupon_info_code .details_describe .short_description_main{ width:86%; font-size:0.8em; padding:2%; z-index:10;}
+	#section_box .box_sc .Coupons_for .Coupons_for_main ul li{ width:49%; margin-top:14px;}
+	.sdm_images_main img{ width:auto;}
+	#section_box .box_sc .Coupons_for .Coupons_for_main ul li:nth-child(8n+1){ margin-left:0;}
+	#section_box .box_sc .Coupons_for .Coupons_for_main ul li:nth-child(2n+1){ margin-left:0;}
+	#section_box .box_sc ul.main_code li{ margin-bottom:14px; padding:2%;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main{ width:60%;}
+	
+}
+@media screen and (max-width: 500px){
+	#section_box .box_sc ul.main_code li .offer_item_actions{font-size:0.8em;float:right; right:8px; bottom:8px;}
+	#section_box .box_sc ul.main_code li .offer_item_actions a.button_hide_code::before, #section_box .box_sc ul.main_code li .offer_item_actions a.button_hide_code::after{ width:20px; height: 20px;}
+	#section_box .box_sc ul.main_code li .icons_list span{ width:64px;}
+	.merchant_img{ width:100px; height:100px;}
+	.merchant_logo_box{ height:100px;}
+	.merchant_logo a{ height:100px;}
+	#section_box .box_sc ul.main_code li .icons_list{ display: none;}
+	#section_box .box_sc ul.main_code li .offer_item_actions button.button_show_code,#section_box .box_sc ul.main_code li .oia a.button_hide_code{ font-size:0.8em; }
+	#section_box .box_sc ul.main_code li .coupon_info_code{ width:69%;}
+	#section_box .box_sc ul.main_code li .coupon_info_code .details_describe .short_description{ font-size:0.8em;width:100%;}
+	#footer .footer_box .footer_foot{ font-size:0.9em; padding-top:36px;}
+	#section_box .box_sc ul.main_code li .coupon_info_code .details_describe .short_description_main{ padding:1%;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main .bd_main_written{ display:none;}
+	
+}
+@media screen and (max-width: 460px){
+	#section_box .Popular_Coupon_Codes .shop_todays .st_main .sml_th{ display:none;}
+	#footer .footer_box .footer_main .footer_ahead ul li{ font-size:0.9em;}
+	#head_box .empty_search .ip_search_form .ipsf input{ font-size:0.8em;}
+}
+@media screen and (max-width: 420px){
+	
+	#head_box .top_line i.logo{ background-position: -60px -395px; width:172px; height:32px;}
+	#section_box .box_sc ul.main_code li .coupon_info_code a{ font-size:1.1em;}
+	#section_box .box_sc ul.main_code li .coupon_info_code{ width:63%;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main{ width:61%; padding: 44px 0 0 3%;}
+	#section_box .box_sc ul.main_code li .offer_item_actions a.button_hide_code::before, #section_box .box_sc ul.main_code li .offer_item_actions a.button_hide_code::after{ width:14px; height: 14px;}
+	#section_box .box_sc ul.main_code li .coupon_info_code .details_describe .short_description{ font-size:0.7em;}
+	#footer .footer_box .footer_main .footer_ahead ul li{ font-size:0.8em;}
+	.code_couple,.Expired{ width:90px; height:90px;}
+	.code_couple span.number,.Expired span.number_ci{ padding:2% 0 0; }
+	.code_couple span.dingoff,.Expired span.dingoff_ci{ font-size:2.2em;}
+    #section_box .box_details .shop_details .shop_details_main .bd_main h2{ font-size:1.4em; font-weight:600;}
+	#section_box .Expired_Michaels_Coupons .Expired_Michaels_Coupons_main h2, #section_box .box_sc .Coupons_for .Coupons_for_main h2, #section_box .box_sc .details_title .details_title_main h2{ font-size:1.3em;}
+	#section_box .box_details .shop_details .shop_details_main .sdm_images{ width:120px; height:120px;}
+	.sdm_images_main,.sdm_images_main .sim_img a{ height:120px;}
+	#section_box .box_details{ height:auto;}
+	#section_box .box_details .shop_details .shop_details_main .sdm_images{ margin:40px 0;}
+	#section_box .box_sc .details_title .details_title_main h2{ padding:30px 0 20px;}
+	.buttons_list li{ font-size:0.8em;}
+}
+@media screen and (max-width: 340px){
+	#section_box .box_sc ul.main_code li .offer_item_actions{ right:6px; bottom: 6px;width:37%;}
+	#section_box .box_sc ul.main_code li .coupon_info_code a{ font-size:0.9em;}
+	#section_box .box_sc ul.main_code li .coupon_info_code{ width:56%;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main h2{ font-size:1.1em;}
+	.merchant_logo a{ height:90px;}
+	.merchant_logo_box{ height:90px;}
+	.merchant_img{ height:90px; width:90px;}
+	#section_box .box_sc ul.main_code li .coupon_info_code .details_describe .short_description_main{ padding:3%; font-size:0.76em; width:94%;}
+	#section_box .box_details .shop_details .shop_details_main .bd_main{ width:56%;}
+	
+	.buttons_list li.cred{ margin-top:8px;}
+}
+
+
+
